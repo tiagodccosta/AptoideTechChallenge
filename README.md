@@ -32,4 +32,4 @@ The script will search for apps, show app details, and download the APK file.
 7. In the UserDao.kt file we have to change the expected type of the object for the getAllUsers() query to LiveData<List<User>> to ensure its consistent with the type being passed in the MainActivityViewModel.
 8. In MainActivityViewModel we need to modify the loadUserData() to use the CouroutineScope just like in the loadPostsData()
 
-### After this changes this changes the app runned perfectly# AptoideTechChallenge
+### After this changes the app runned perfectly# AptoideTechChallenge
